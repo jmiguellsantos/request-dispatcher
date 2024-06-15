@@ -42,21 +42,21 @@ Para testar a API, você pode usar uma interface gráfica como o [Postman](https
 
 No Postman:
 - Selecione `POST`.
-- Coloque a URL: `http://localhost:8080/api/request`.
+- Coloque a URL: `http://localhost:8080/api/requisicao`.
 - Vá para a aba `Body` e selecione `x-www-form-urlencoded`.
 - Adicione as chaves `id` e `type` com seus respectivos valores.
 
 ##### 2. Adicionar Atendente
 
 - **Método**: POST
-- **URL**: `http://localhost:8080/api/attendant`
+- **URL**: `http://localhost:8080/api/atendente`
 - **Parâmetros**:
   - **Key**: `team`, **Value**: `Cartões`
   - **Key**: `attendantId`, **Value**: `1`
 
 No Postman:
 - Selecione `POST`.
-- Coloque a URL: `http://localhost:8080/api/attendant`.
+- Coloque a URL: `http://localhost:8080/api/atendente`.
 - Vá para a aba `Body` e selecione `x-www-form-urlencoded`.
 - Adicione as chaves `team` e `attendantId` com seus respectivos valores.
 
