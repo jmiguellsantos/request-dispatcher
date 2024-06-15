@@ -2,6 +2,10 @@
 
 Projeto desenvolvido em Spring Boot que distribui solicitações de clientes para os atendentes corretos. O sistema, implementado em Java, distribui as solicitações com base no tipo de solicitação. O sistema respeita a capacidade máxima de atendentes e enfileira solicitações quando todos os atendentes estão ocupados.
 
+A Api está configurada com o springsercurity,
+Name: admin
+Senha: admin
+
 ## Funcionalidades
 
 - **Distribuição Inteligente**: Solicitações são direcionadas ao time correto com base no tipo de solicitação.
